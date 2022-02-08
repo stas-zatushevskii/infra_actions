@@ -71,4 +71,4 @@ jobs:
           sudo docker pull staszatshevskii/nifty_diffie
           #остановка всех контейнеров
           sudo docker stop $(sudo docker ps -a -q)
-          sudo docker run --rm -d -p 5000:5000 staszatshevskii/nifty_diffie
+          sudo docker run --rm -d -p 5000:5000 staszatshevskii/nifty_diffie 
